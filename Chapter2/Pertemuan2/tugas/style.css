@@ -1,0 +1,59 @@
+.container {
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    width: 70%;box-shadow: 20px 20px 50px 15px grey;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(55, 55, 245);
+    flex-direction: row-;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+#image {
+    margin-top: 20px;
+    border: 5px solid white;
+    width: 150px;
+    height: 150px;
+}
+
+#btn-download {
+    background-color: aliceblue;
+    border: 1px white;
+    border-radius: 20px;
+}
+
+#btn-hire{
+    background-color: rgb(2, 255, 2);
+    border: 1px white;
+    border-radius: 20px;
+}
+.row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+flex: 50%;
+padding: 10px; /* Should be removed. Only for demonstration */
+}
+
+table{
+    padding-top: 40px;
+}
+
+th, td {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#message{
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+h1{
+    color: rgb(76, 0, 255);
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 30px;
+    text-transform: uppercase;
+    background-color: orange;
+}   
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    flex-grow: 2;
+    order: 2;
+}
+.item2 {
+    width: 100px;
+    height: 100px;
+    order: 1;
+    background-color: rebeccapurple;
+}
+.item3 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.item4 {
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+}
